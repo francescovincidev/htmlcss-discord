@@ -17,49 +17,73 @@
     margin: 0 auto;
 }
 
+li a{
+    color: inherit;
+    text-decoration: none;
+
+}
+
+.button{
+    border-radius: 20px;
+    
+
+}
+
 
 /* HEADER */
 
 /* navigation bar */
 header nav{
-    background-color: #ADD8E6; 
+    background-color: #255EE9; 
 }
 
 .navigation-bar {
 
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px 0;
+
+    font-size: 0.8rem;
 
 }
 
 
 
 .navigation-bar .menu{
-    background-color: #DAA520;
-    width: calc(100%/4);
+    /* background-color: #DAA520; */
+
     padding:5px;
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
+    
 
 
 }
 
 .navigation-bar .menu.link{
-    width: calc(100%/2);
+
+    color: white;
 
 
 }
 
 .navigation-bar div.menu ul{
     list-style-type: none;
-    gap: 10px;
+    gap: 20px;
     justify-content: center;
 
 }
 
 .navigation-bar  .login{
     text-align: right;
+    background-color: white;
+    padding: 8px;
+    margin: 0 40.875px;
+
+
+
 }
+
+
 
 /* banner */
 .banner{
