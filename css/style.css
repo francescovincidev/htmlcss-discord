@@ -20,7 +20,7 @@ body{
     margin: 0 auto;
 }
 
-li a{
+a{
     color: inherit;
     text-decoration: none;
 
@@ -115,7 +115,8 @@ h1{
 }
 
 .banner-content p{
-    line-height: 1.5rem;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
 
 }
 
@@ -143,26 +144,41 @@ h1{
 /* MAIN */
 .main-section{
     /* margin: 60px auto; */
-    height: 400px;
+    /* height: 400px;  */
     padding: 40px 0;
 
 }
 
 .immagine{
-    width: 60%;
-    border: 2px dashed black;
-    background-color: #1E90FF;
+    width: 55%;
+    /* border: 2px dashed black; */
+    /* background-color: #1E90FF; */
+}
+
+.immagine img{
+    width: 100%;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+main p{
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    padding: 1rem 0;
 }
 
 .descrizione{
-    width: 40%;
-    border: 2px dashed black;
-    background-color: #FFC0CB;
+    width: 45%;
+    padding: 1.5rem;
+    /* border: 2px dashed black;
+    background-color: #FFC0CB; */
 
 }
 
 .grey{
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
 
 .grey .main-section{
@@ -171,21 +187,44 @@ h1{
 
 
 .fourth{
-    background-color: #D3D3D3;
+
     justify-content: center;
     align-items: center;
     padding: 30px 0;
+
 }
 
 .fourth-content{
-    background-color: #228B22;
-    height: 600px;
+    /* background-color: #228B22; */
     width: 60%;
-    border: 2px dashed black;
+    text-align: center;
+    /* border: 2px dashed black; */
 
 
 }   
 
+.fourth-content img{
+    width: 100%;
+}
+
+.main-bottom{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.main-bottom h3{
+    margin-top: -15px;
+}
+.main-bottom div{
+    padding: 60px 0;
+}
+
+.download-bottom{
+    background-color: #7289DA;
+    font-size: 0.8rem;
+    color: white;
+    
+}
 
 
 /* FOOTER */
@@ -250,6 +289,7 @@ hr{
     border: 2px dashed black;
     padding: 5px;
 
-
 }
+
+
 
