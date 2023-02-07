@@ -15,6 +15,19 @@ body{
     display: flex;
 }
 
+svg{
+    color: #F6F6F6;
+    background-color: white;
+}
+
+.third-section svg{
+    transform: rotate(180deg) scaleX(-1);
+
+
+}
+
+
+
 .container{
     width: 60%;
     margin: 0 auto;
@@ -140,7 +153,7 @@ h1{
 /* MAIN */
 .main-section{
 
-    padding: 40px 0;
+    padding: 50px 0;
 
 }
 
@@ -200,8 +213,8 @@ main p{
     margin: 0 auto;
 }
 
-.main-bottom h3{
-    margin-top: -15px;
+.main-bottom h4{
+    margin-top: -10px;
 }
 .main-bottom div{
     padding: 40px 0 60px;
