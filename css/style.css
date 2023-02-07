@@ -102,11 +102,7 @@ header nav{
 }
 
 .banner-content{
-    /* background-color: #EE82EE; */
-    /* height: 200px; */
     width: 50%;
-    /* border: 2px dashed black; */
-
 
 }   
 
@@ -143,23 +139,20 @@ h1{
 
 /* MAIN */
 .main-section{
-    /* margin: 60px auto; */
-    /* height: 400px;  */
+
     padding: 40px 0;
 
 }
 
 .immagine{
     width: 55%;
-    /* border: 2px dashed black; */
-    /* background-color: #1E90FF; */
 }
 
 .immagine img{
     width: 100%;
 }
 
-h2{
+main h2{
     font-size: 2rem;
 }
 
@@ -172,8 +165,6 @@ main p{
 .descrizione{
     width: 45%;
     padding: 1.5rem;
-    /* border: 2px dashed black;
-    background-color: #FFC0CB; */
 
 }
 
@@ -195,11 +186,8 @@ main p{
 }
 
 .fourth-content{
-    /* background-color: #228B22; */
     width: 60%;
     text-align: center;
-    /* border: 2px dashed black; */
-
 
 }   
 
@@ -216,7 +204,7 @@ main p{
     margin-top: -15px;
 }
 .main-bottom div{
-    padding: 60px 0;
+    padding: 40px 0 60px;
 }
 
 .download-bottom{
@@ -229,67 +217,109 @@ main p{
 
 /* FOOTER */
 footer{
-
+    background-color: #23272A;
 
 }
 
+/* footer menu */
 .footer-menu {
 
-    background-color: #23272A;
-    border: 2px dashed black;
-
-
+    color: white;
+    width: 80%;
+    margin: 0 auto;
 
 }
 
 nav.flex{
-    padding: 10px 0 10px;
+    padding: 20px 0 10px;
+    justify-content: space-between;
 
 }
 
 
 
 .main-footer-menu{
-    width:30%;
-    height: 400px;
-    background-color: #F08080;
-    border: 2px dashed black;
+
+    padding: 1rem 0;
 
 }
 
-.sub-footer-menu{
-    height: 400px;
-    width:calc(70%/4);
-    background-color: #20B2AA;
-    border: 2px dashed white;
+
+footer h2{
+    color: #7289DA;
+    padding: 1rem 0;
+
 
 }
+
+.nazione{
+    width: 10%;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    
+}
+
+.nazione img{
+    width: 24px;
+    height: 16px;
+    margin-right: 4px;
+}
+.lingua{
+    margin-right: 2px;
+
+}
+
+.socials{
+    width: 65%;
+    padding: 1rem 0;
+    justify-content: space-between;
+
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 1.2rem 0;
+
+}
+footer li{
+    padding: 0.5rem;
+    font-size: 0.8rem;
+
+}
+
+footer li:first-of-type{
+    color: #7185CF;
+    font-weight: bold;
+}
+
+
+
 
 hr{
-    margin: 20px 0;
+
+    border: 1px #7185CF solid;
 }
 
+/* footer bottom */
 .closing-bar{
-    background-color: #7FFFD4;
+
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0;
+    padding: 15px 0 30px;
 
 
 }
 
 .closing-logo{
-    background-color: #FFB6C1;
-    border: 2px dashed black;
+
     padding: 5px;
 }
 
 .closing-button{
-    background-color: #FFB6C1;
-    border: 2px dashed black;
-    padding: 5px;
+
+    background-color: #7185CF;
+    font-size: 0.8rem;
 
 }
-
 
 
