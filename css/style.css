@@ -8,6 +8,9 @@
 
 
 /* UTILITY */
+body{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .flex{
     display: flex;
 }
@@ -25,7 +28,9 @@ li a{
 
 .button{
     border-radius: 20px;
-    
+    padding: 10px;
+
+
 
 }
 
@@ -41,8 +46,7 @@ header nav{
 
     justify-content: space-around;
     align-items: center;
-    padding: 10px 0;
-
+    padding: 8px 0;
     font-size: 0.8rem;
 
 }
@@ -50,10 +54,10 @@ header nav{
 
 
 .navigation-bar .menu{
-    /* background-color: #DAA520; */
+
 
     padding:5px;
-    /* border: 2px dashed black; */
+
     
 
 
@@ -76,8 +80,8 @@ header nav{
 .navigation-bar  .login{
     text-align: right;
     background-color: white;
-    padding: 8px;
-    margin: 0 40.875px;
+    padding: 10px; 
+    margin: 0 38.875px;
 
 
 
@@ -90,17 +94,50 @@ header nav{
     background-color: #00008B;
     justify-content: center;
     align-items: center;
-    padding: 30px 0;
+    padding: 50px 0;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    text-align: center;
+    color: white;
 }
 
 .banner-content{
-    background-color: #EE82EE;
-    height: 200px;
-    width: 40%;
-    border: 2px dashed black;
+    /* background-color: #EE82EE; */
+    /* height: 200px; */
+    width: 50%;
+    /* border: 2px dashed black; */
 
 
 }   
+
+h1{
+    margin: 20px auto;
+}
+
+.banner-content p{
+    line-height: 1.5rem;
+
+}
+
+.download{
+    background-color: white;
+    color: black;
+    margin: auto 0.5rem;
+
+}
+
+.openbrowser{
+    background-color: #23272A;
+    margin: auto 0.5rem;
+
+}
+
+.opendiscord{
+    padding: 0.5rem;
+    justify-content: center;
+    font-size: 0.8rem;
+
+}
 
 
 /* MAIN */
